@@ -17,9 +17,9 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/samsung/v1awifi
+LOCAL_PATH := device/samsung/v2awifi
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/v1awifi/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/v2awifi/overlay
 
 PRODUCT_CHARACTERISTICS := tablet
 
@@ -301,4 +301,4 @@ $(call inherit-product, hardware/samsung_slsi-cm/exynos5/exynos5.mk)
 $(call inherit-product, hardware/samsung_slsi-cm/exynos5420/exynos5420.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/v1awifi/v1awifi-vendor.mk)
+$(call inherit-product, vendor/samsung/v2awifi/v2awifi-vendor.mk)

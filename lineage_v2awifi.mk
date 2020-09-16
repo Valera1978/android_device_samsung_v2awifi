@@ -17,17 +17,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l.mk)
 
 # Inherit from viennalte device
-$(call inherit-product, device/samsung/v1awifi/device.mk)
+$(call inherit-product, device/samsung/v2awifi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_v1awifi
-PRODUCT_DEVICE := v1awifi
+PRODUCT_NAME := lineage_v2awifi
+PRODUCT_DEVICE := v2awifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-P900
+PRODUCT_MODEL := SM-T900
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 

@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_v1awifi.mk
+    $(LOCAL_DIR)/lineage_v2awifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_v1awifi-userdebug
+    lineage_v2awifi-userdebug

@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/v1awifi
+LOCAL_PATH := device/samsung/v2awifi
 
 # temporary
 BUILD_BROKEN_DUP_RULES := true
@@ -52,7 +52,7 @@ BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos5420
-TARGET_KERNEL_CONFIG := lineageos_v1awifi_defconfig
+TARGET_KERNEL_CONFIG := lineageos_v2awifi_defconfig
 
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
